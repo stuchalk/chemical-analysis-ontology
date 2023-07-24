@@ -5,3 +5,4 @@ repo: chemical-analysis-ontology
 import_group:
   products:
     - id: chmo
+    - id: bfo
