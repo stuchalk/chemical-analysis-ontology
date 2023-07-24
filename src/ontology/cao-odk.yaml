@@ -1,0 +1,7 @@
+id: cao
+title: "Chemical Analysis Ontology v2"
+github_org: stuchalk
+repo: chemical-analysis-ontology
+import_group:
+  products:
+    - id: chmo

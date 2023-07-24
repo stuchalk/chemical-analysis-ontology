@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/cao
+
+idspace: CAO
+base_url: /obo/cao
+
+products:
+- cao.owl: https://raw.githubusercontent.com/stuchalk/chemical-analysis-ontology/main/cao.owl
+- cao.obo: https://raw.githubusercontent.com/stuchalk/chemical-analysis-ontology/main/cao.obo
+
+term_browser: ontobee
+example_terms:
+- CAO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/stuchalk/chemical-analysis-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/stuchalk/chemical-analysis-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/CAO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/stuchalk/chemical-analysis-ontology/main/
+
